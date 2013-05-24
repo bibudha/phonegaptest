@@ -1,0 +1,45 @@
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+
+		$('form').removeClass('ui-bar-c');
+		$('form').addClass('ui-bar-a');
+		$('form > div').removeClass('ui-body-c');
+		$('form > div').addClass('ui-body-a');
+		$('form > div > input').removeClass('ui-body-c');
+		$('form > div > input').addClass('ui-body-a');
+		
+		
+	});
+</script>
+
+
+    	<div data-role="controlgroup" data-type="horizontal">
+    		<a href="#" data-role="button" data-theme="b"><span class="increase"></span>link1 <br>12</a>
+		    <a href="#" data-role="button" data-theme="b"><span class="decrease"></span>link2 <br>40</a>
+            <a href="#" data-role="button" data-theme="b">link3 <br> 25</a>
+    		<a href="#" data-role="button" data-theme="b" class="active">link4 <br> 32</a>
+		</div>
+
+    <ul data-role="listview" data-autodividers="true" data-filter="true" data-inset="false" data-divider-theme="a" data-theme="c" id="ui-custom-ul">
+        <li data-role="list-divider">role</li>
+            <li class="no-ui-icon"><a href="#">Name</a></li>
+       	<li data-role="list-divider">role</li>
+            <li class="no-ui-icon"><a href="#">aame</a></li>
+            <li class="no-ui-icon details">aame</li>
+		<li data-role="list-divider">role</li>
+            <li class="no-ui-icon"><a href="#">dame</a>
+            <div class="accept">
+                <span class="cross active"></span>
+              	<span class="tick"></span>
+            </div>
+            </li>
+		<li data-role="list-divider">role</li>
+            <li class="no-ui-icon"><a href="#">came <span class="countguest"><b>+5</b></span></a></li>
+
+	</ul>
+    
+
+
+

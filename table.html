@@ -1,0 +1,53 @@
+
+
+
+	<script type="text/javascript">
+	$(document).ready(function(){
+		
+
+		$('form').removeClass('ui-bar-c');
+		$('form').addClass('ui-bar-a');
+		$('form > div').removeClass('ui-body-c');
+		$('form > div').addClass('ui-body-a');
+		$('form > div > input').removeClass('ui-body-c');
+		$('form > div > input').addClass('ui-body-a');
+		
+		
+	});
+</script>
+	<div data-role="content" id="cont">
+    	<div data-role="controlgroup" data-type="horizontal">
+            <a href="#" data-role="button" data-theme="b"  class="active">link3 <br> 25</a>
+    		<a href="#" data-role="button" data-theme="b">link4 <br> 32</a>
+		</div>
+
+    <ul data-role="listview" data-autodividers="true" data-filter="true" data-inset="false" data-divider-theme="a" data-theme="c" id="ui-custom-ul">
+        <li data-role="list-divider">role</li>
+            <li class="no-ui-icon"><a href="#">Name <span class="any_problem"></span></a>
+                        
+            </li>
+            <li class="no-ui-icon"><a href="#">aame  <span class="age_problem"></span></a>
+	          
+            </li>
+            <li class="no-ui-icon details">
+            	<p class="li-top-head">heading</p>
+            	<div class="ui-grid-a">
+                    <div class="ui-block-a border-right padding-right">
+                        <p>test test</p>
+                        <p>test test</p>
+                        <p>test test</p>
+                    </div>
+                    <div class="ui-block-b text-left padding-left">
+                    	<p>test test</p>
+                    	<p>test test</p>
+                    	<p>test test</p>
+					</div>
+                </div><!-- /grid-a -->
+            </li>
+		   	<li data-role="list-divider">role</li>
+            <li class="no-ui-icon"><a href="#">came <span class="countguest"><b>+5</b></span></a></li>
+
+	</ul>
+    </div>
+
+	
